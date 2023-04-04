@@ -1,0 +1,77 @@
+body {
+  height: 720px;
+  background: #c1c1c1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculadora {
+  padding: 36px;
+  background: #411c52;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.35);
+  border-radius: 12px;
+}
+
+.tela {
+  width: 100%;
+  height: 88px;
+  background: #d9d9d9;
+  border-radius: 12px;
+  margin-bottom: 26px;
+}
+
+button {
+  width: 72px;
+  height: 72px;
+  background: #d9d9d9;
+  box-shadow: 2px 2px 2px #c1c1c1;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.grupo-botoes {
+  display: grid;
+  grid-template-columns: repeat(4, 72px);
+  grid-gap: 24px 32px;
+  
+}
+
+button.numero {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+button.operador {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1D94AE;
+}
+button.operador:last-child {
+    width: 176px;
+}
+
+.tela{
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 50px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}

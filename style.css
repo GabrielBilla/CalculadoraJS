@@ -74,4 +74,6 @@ button.operador:last-child {
   display: flex;
   justify-content: right;
   align-items: center;
+  overflow: hidden;
+  width: 380px;
 }
